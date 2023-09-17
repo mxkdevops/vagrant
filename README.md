@@ -25,5 +25,10 @@ vagrant init centos/7
 vagrant init centos/8
 vagrant init geerlingguy/ubuntu1604
 vagrant up
-
+vagrant ssh
+vagrant status
+vagrant halt
+vagrant suspend
+vagrant reload
+vagrant up 
 ```
