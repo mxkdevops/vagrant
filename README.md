@@ -29,8 +29,26 @@ vagrant up
 vagrant ssh
 vagrant status
 vagrant global-status
+vagrant global-status --prune
 vagrant halt
 vagrant suspend
 vagrant reload
-vagrant up 
+vagrant up
+ls ~/.vagrant.d/
 ```
+### Vagrant Networking 
+uncomment this from 
+notepad :  Vagrantfile
+config.vm.network "private_network", ip: "192.168.56.14"
+config.vm.network "public_network"
+### Provisioning
+### RAM, CPU , etc
+config.vm.provider "virtualbox" do |vb|
+  #   # Display the VirtualBox GUI when booting the machine
+  #   vb.gui = true
+  #
+  #   # Customize the amount of memory on the VM:
+     vb.memory = "1600"
+   end
+### Multivm
+### Documentation 
