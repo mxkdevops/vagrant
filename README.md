@@ -1,15 +1,17 @@
 # vagrant
 17/09/2023 05:27 am 
 vagrant-vmware-virtualbox-automation
-### Install vagrant 
-```
-https://developer.hashicorp.com/vagrant/downloads
-```
 
 ### Install vagrant through community edition through chokoloty
 ```
 https://community.chocolatey.org/packages/vagrant
 choco install vagrant
+```
+
+
+### Install vagrant 
+```
+https://developer.hashicorp.com/vagrant/downloads
 ```
 
 ### Install Vagrant VMware Utility
