@@ -5,6 +5,13 @@ vagrant-vmware-virtualbox-automation
 ```
 https://developer.hashicorp.com/vagrant/downloads
 ```
+
+### Install vagrant through community edition through chokoloty
+```
+https://community.chocolatey.org/packages/vagrant
+choco install vagrant
+```
+
 ### Install Vagrant VMware Utility
 ```
 https://developer.hashicorp.com/vagrant/downloads/vmware
